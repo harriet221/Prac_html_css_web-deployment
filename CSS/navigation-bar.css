@@ -1,0 +1,20 @@
+.navigation-bar {
+    background-color: rgba(255, 255, 255, 0.5); /* 투명도 50% */
+    width: 8rem;
+    height: 3rem;
+    border-radius: 0 10px 0 0;
+
+    display: flex;
+    justify-content: space-around; /* 컨테이너 내 아이콘 균등 분포 */
+    align-items: center;
+    position: fixed; /* 스크롤 영향 안 받음 */
+    bottom: 0;
+}
+.navigation-bar span {
+    color: black;
+    font-size: 1.5rem;
+}
+
+.find-icon-clicked {
+    font-weight: 600;
+}
